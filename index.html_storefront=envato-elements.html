@@ -1,0 +1,1360 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Iqra Nawaz - SEO Content Writer, Academic Writer & Copywriter"
+    >
+
+    <meta
+        name="author"
+        content="Iqra Nawaz"
+    >
+
+    <title>Iqra Nawaz | SEO Content Writer & Academic Writer</title>
+
+    <link
+        rel="shortcut icon"
+        type="image/x-icon"
+        href="img/favicon.ico"
+    >
+
+    <!-- Themify Icons CSS -->
+    <link
+        rel="stylesheet"
+        href="css/themify-icons.css"
+    >
+
+    <!-- Elegant Line Icons CSS -->
+    <link
+        rel="stylesheet"
+        href="css/elegant-line-icons.css"
+    >
+
+    <!-- Bootstrap CSS -->
+    <link
+        rel="stylesheet"
+        href="css/bootstrap.min.css"
+    >
+
+    <!-- Slicknav CSS -->
+    <link
+        rel="stylesheet"
+        href="css/slicknav.min.css"
+    >
+
+    <!-- Animate CSS -->
+    <link
+        rel="stylesheet"
+        href="css/animate.min.css"
+    >
+
+    <!-- OWL Carousel CSS -->
+    <link
+        rel="stylesheet"
+        href="css/owl.carousel.css"
+    >
+
+    <!-- Venobox CSS -->
+    <link
+        rel="stylesheet"
+        href="css/venobox.css"
+    >
+
+    <!-- Main CSS -->
+    <link
+        rel="stylesheet"
+        href="css/main.css"
+    >
+
+    <style>
+
+        /*
+        ============================================================
+        EXISTING UI PRESERVED
+        Only portfolio title/button styling added.
+        ============================================================
+        */
+
+        /* HERO — same design, only scaled so the content fits cleanly */
+        .hero-section {
+            min-height: 620px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .hero-content {
+            max-width: 650px;
+        }
+
+        .hero-content .heading {
+            font-size: 50px !important;
+            line-height: 1.06 !important;
+            margin-bottom: 22px !important;
+        }
+
+        .hero-content .sub-heading {
+            font-size: 21px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 14px !important;
+        }
+
+        .hero-content .desc {
+            max-width: 690px;
+            font-size: 15px !important;
+            line-height: 1.75 !important;
+            margin-bottom: 28px !important;
+        }
+
+        .navbar-brand {
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+        }
+
+        /* Portfolio hover: title + button appear on the image */
+        .work-thumb {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .work-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.52);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .work-overlay .work-title {
+            display: block;
+            margin: 0;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 1.35;
+            font-weight: 700;
+            transform: translateY(15px);
+            transition: all 0.3s ease;
+        }
+
+        .work-overlay .work-view-btn {
+            display: inline-block;
+            padding: 7px 16px;
+            background: #ffffff;
+            color: #111111;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.2;
+            border: 0;
+            border-radius: 4px;
+            text-decoration: none;
+            transform: translateY(15px);
+            transition: all 0.3s ease;
+        }
+
+        .work-overlay .work-view-btn:hover {
+            background: #f2f2f2;
+            color: #111111;
+            text-decoration: none;
+        }
+
+        .work-box:hover .work-overlay {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .work-box:hover .work-overlay .work-title,
+        .work-box:hover .work-overlay .work-view-btn {
+            transform: translateY(0);
+        }
+
+        /* Remove the old title/button area below each image */
+        .work-info {
+            display: none !important;
+        }
+
+        .work-box img {
+            width: 100%;
+            display: block;
+        }
+
+        @media (max-width: 991px) {
+            .hero-content .heading {
+                font-size: 44px !important;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .hero-section {
+                min-height: 620px;
+            }
+
+            .hero-content .sub-heading {
+                font-size: 20px !important;
+            }
+
+            .hero-content .heading {
+                font-size: 40px !important;
+                line-height: 1.08 !important;
+            }
+
+            .hero-content .desc {
+                font-size: 15px !important;
+                line-height: 1.7 !important;
+            }
+        }
+    </style>
+
+</head>
+
+
+<body
+    data-spy="scroll"
+    data-target="#navmenu"
+    data-offset="70"
+>
+
+
+    <!-- PRELOADER -->
+
+    <div class="site-preloader-wrap">
+
+        <div class="spinner-wrap">
+
+            <div class="spinner"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HEADER -->
+
+    <header
+        id="header"
+        class="header-section"
+    >
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a
+                    href="#home"
+                    class="navbar-brand"
+                >
+                    <img
+                        src="img/logo.png"
+                        alt="Iqra Nawaz"
+                    >
+                </a>
+
+
+                <div class="d-flex menu-wrap">
+
+                    <div
+                        id="navmenu"
+                        class="mainmenu"
+                    >
+
+                        <ul class="nav">
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link active"
+                                    href="#home"
+                                >
+                                    Home
+                                    <span class="sr-only">
+                                        (current)
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link"
+                                    href="#about"
+                                >
+                                    About
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link"
+                                    href="#services"
+                                >
+                                    Services
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link"
+                                    href="#portfolio"
+                                >
+                                    Portfolio
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link"
+                                    href="#reviews"
+                                >
+                                    Experience
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a
+                                    data-scroll
+                                    class="nav-link"
+                                    href="#contact"
+                                >
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- END HEADER -->
+
+
+    <!-- HERO -->
+
+    <section
+        id="home"
+        class="hero-section d-flex align-items-center"
+    >
+
+        <div class="container">
+
+            <div class="row hero-wrap">
+
+                <div class="col-lg-7">
+
+                    <div class="hero-content mt-50">
+
+                        <h3
+                            class="sub-heading wow fadeInUp"
+                            data-wow-delay="200ms"
+                        >
+                            Hey, I AM Iqra Nawaz...
+                        </h3>
+
+                        <h1
+                            class="heading wow fadeInUp"
+                            data-wow-delay="300ms"
+                        >
+                            SEO CONTENT WRITER | ACADEMIC WRITER | COPYWRITER
+                        </h1>
+
+                        <p
+                            class="desc wow fadeInUp"
+                            data-wow-delay="400ms"
+                        >
+                            SEO Content Writer with 3+ years of experience creating clear, engaging and research-based
+                            content. Specialized in SEO blog posts, articles, website content, academic writing and copywriting.
+                        </p>
+
+                        <!-- DOWNLOAD CV BUTTON -->
+
+                        <a
+    href="img/Resume.pdf"
+    class="default-btn wow fadeInUp"
+    data-wow-delay="500ms"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    View CV
+</a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END HERO -->
+
+
+    <!-- ABOUT -->
+
+    <section
+        id="about"
+        class="about-section bd-bottom padding"
+    >
+
+        <div class="container">
+
+            <div class="row about-wrap d-flex align-items-center">
+
+
+                <div class="col-lg-5 sm-padding">
+
+                    <div
+                        class="about-bg wow fadeInLeft"
+                        data-wow-delay="100ms"
+                    >
+
+                        <img
+                        src="img/about.png"
+                        alt="Iqra Nawaz"
+                    >
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-7 sm-padding">
+
+                    <div class="about-content">
+
+                        <h2>
+
+                            <span
+                                class="wow fadeInUp"
+                                data-wow-delay="100ms"
+                            >
+                                I'm an SEO Content Writer
+                            </span>
+
+                            <br>
+
+                            <span
+                                class="wow fadeInUp"
+                                data-wow-delay="300ms"
+                            >
+                                & Academic Writer.
+                            </span>
+
+                        </h2>
+
+
+                        <p
+                            class="wow fadeInUp"
+                            data-wow-delay="500ms"
+                        >
+                            I'm Iqra Nawaz, an SEO Content Writer, Academic Writer and Copywriter with 3+ years of experience
+                            creating clear, engaging and research-based content for blogs, websites, academic projects and digital platforms.
+                        </p>
+
+
+                        <p
+                            class="wow fadeInUp"
+                            data-wow-delay="600ms"
+                        >
+                            I specialize in SEO blog posts, articles, website content, academic writing and copywriting.
+                            I conduct topic and online research, understand search intent, organize information logically,
+                            and create original, reader-focused content with natural keyword integration.
+                        </p>
+
+
+                        <p
+                            class="wow fadeInUp"
+                            data-wow-delay="700ms"
+                        >
+                            My work focuses on clear communication, strong research, audience-focused writing,
+                            deadline management and careful attention to content quality.
+                        </p>
+
+
+                    </div>
+
+
+                    <!-- SKILLS -->
+
+                    <ul
+                        class="skill-items wow fadeInUp"
+                        data-wow-delay="800ms"
+                    >
+
+                        <li class="skill-item">
+                            <h5>SEO Content Writing</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 95%;">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>SEO Blog & Article Writing</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 95%;">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Website Content Writing</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Academic & Research Writing</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 95%;">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Copywriting</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Topic & Content Research</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 95%;">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Keyword Integration</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <h5>Search Intent Understanding</h5>
+                            <div class="progress">
+                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
+                                    role="progressbar" style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    <div class="cv-btn">
+
+                        <a
+                            href="mailto:I12992322@gmail.com"
+                            class="default-btn wow fadeInUp"
+                            data-wow-delay="900ms"
+                        >
+                            Get In Touch
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END ABOUT -->
+
+
+    <!-- SERVICES -->
+
+    <section
+        id="services"
+        class="service-section bg-grey bd-bottom padding"
+    >
+
+        <div class="container">
+
+            <div class="section-heading text-center mb-40">
+
+                <h2 class="wow fadeInUp">
+                    Professional Services
+                </h2>
+
+            </div>
+
+
+            <div class="service-wrap row">
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="100ms"
+                >
+
+                    <div class="service-item text-center">
+
+                        <i class="icon-book-open"></i>
+
+                        <h3>
+                            <span>SEO Content Writing</span>
+                        </h3>
+
+                        <p>
+                            SEO-optimized blog posts, articles and informative content based on audience needs,
+                            search intent and relevant keywords.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="300ms"
+                >
+
+                    <div class="service-item text-center">
+
+                        <i class="icon-pencil"></i>
+
+                        <h3>
+                            <span>Academic & Research Writing</span>
+                        </h3>
+
+                        <p>
+                            Research-based academic content, assignments, thesis-related writing and
+                            structured educational material.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="500ms"
+                >
+
+                    <div class="service-item text-center">
+
+                        <i class="icon-edit"></i>
+
+                        <h3>
+                            <span>Website Content Writing</span>
+                        </h3>
+
+                        <p>
+                            Clear, informative website pages, service content, business-focused copy and
+                            audience-centered digital content.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="700ms"
+                >
+
+                    <div class="service-item text-center">
+
+                        <i class="icon-laptop"></i>
+
+                        <h3>
+                            <span>Copywriting</span>
+                        </h3>
+
+                        <p>
+                            Persuasive and engaging copy for digital platforms, businesses, websites and
+                            marketing communication.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END SERVICES -->
+
+
+    <!-- COUNTERS -->
+
+    <section class="counter-section padding overlay">
+
+        <div class="container">
+
+            <div class="counter-wrap row">
+
+                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="100ms">
+                    <div class="counter-item text-center">
+                        <i class="icon-book-open"></i>
+                        <h3 class="counter">3+</h3>
+                        <h4>Years of Experience</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="300ms">
+                    <div class="counter-item text-center">
+                        <i class="icon-pencil"></i>
+                        <h3 class="counter">5</h3>
+                        <h4>Core Writing Areas</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="500ms">
+                    <div class="counter-item text-center">
+                        <i class="icon-globe"></i>
+                        <h3 class="counter">4</h3>
+                        <h4>Featured Writing Samples</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="700ms">
+                    <div class="counter-item text-center">
+                        <i class="icon-laptop"></i>
+                        <h3 class="counter">8</h3>
+                        <h4>Core Professional Skills</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END COUNTERS -->
+
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="work-section bd-bottom padding">
+
+    <div class="container">
+
+        <div class="section-heading text-center mb-40">
+            <h2 class="wow fadeInUp" data-wow-delay="100ms">
+                Work Portfolio
+            </h2>
+        </div>
+
+        <div class="work-items-wrap">
+
+            <div class="work-titles"></div>
+
+            <ul class="work-filter mb-30 wow fadeInUp" data-wow-delay="300ms">
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".seo-content">SEO Content</li>
+                <li data-filter=".website-content">Website Content</li>
+                <li data-filter=".research-academic">Research & Academic Writing</li>
+                <li data-filter=".copywriting">Copywriting</li>
+            </ul>
+
+            <div class="row work-items wow fadeInUp" data-wow-delay="500ms">
+
+                <!-- =====================================================
+                     SEO CONTENT
+                ====================================================== -->
+
+                <!-- 1. Solar LED Fence Post Cap -->
+                <div class="col-md-4 col-sm-6 xs-padding single-item seo-content">
+                    <a href="https://docs.google.com/document/d/17-Kzo_Ds6h_JNThgl02Q0PrWTfmXUEDU/edit?usp=drivesdk&ouid=103131804766633654912&rtpof=true&sd=true"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-box">
+
+                        <div class="work-thumb">
+                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80"
+                                alt="Solar LED Fence Post Cap in Florida: Weather-Resistant Dusk-to-Dawn Lighting">
+
+                            <div class="work-overlay">
+                                <h4 class="work-title">
+                                    Solar LED Fence Post Cap in Florida: Weather-Resistant Dusk-to-Dawn Lighting
+                                </h4>
+                                <span class="work-view-btn">Read Sample</span>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- 2. Premium White Aluminum LED Baseboard Molding -->
+                <div class="col-md-4 col-sm-6 xs-padding single-item seo-content">
+                    <a href="https://docs.google.com/document/d/1eIybN6G4TodaMYEIsCLWrIKZ48YPU6kw/edit?usp=drivesdk&ouid=103131804766633654912&rtpof=true&sd=true"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-box">
+
+                        <div class="work-thumb">
+                            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+                                alt="Premium White Aluminum LED Baseboard Molding in New Jersey">
+
+                            <div class="work-overlay">
+                                <h4 class="work-title">
+                                    Premium White Aluminum LED Baseboard Molding in New Jersey
+                                </h4>
+                                <span class="work-view-btn">Read Sample</span>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- 3. Ancient Black Accent WPC Cladding -->
+                <div class="col-md-4 col-sm-6 xs-padding single-item seo-content">
+                    <a href="https://docs.google.com/document/d/1UBjTf8XC34KcOuKlessDPqHH-4IM_al2/edit?usp=drivesdk&ouid=103131804766633654912&rtpof=true&sd=true"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-box">
+
+                        <div class="work-thumb">
+                            <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=900&q=80"
+                                alt="Ancient Black Accent WPC Cladding in Illinois">
+
+                            <div class="work-overlay">
+                                <h4 class="work-title">
+                                    Ancient Black Accent WPC Cladding in Illinois
+                                </h4>
+                                <span class="work-view-btn">Read Sample</span>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- 4. LED Base Molding for Modern Homes -->
+                <div class="col-md-4 col-sm-6 xs-padding single-item seo-content">
+                    <a href="https://docs.google.com/document/d/1qSfY6ZBYueBwltB-tWhwalqMdmuVh98f/edit?usp=drivesdk&ouid=103131804766633654912&rtpof=true&sd=true"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-box">
+
+                        <div class="work-thumb">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80"
+                                alt="LED Base Molding for Modern Homes: A Smarter Way to Add Ambient Lighting">
+
+                            <div class="work-overlay">
+                                <h4 class="work-title">
+                                    LED Base Molding for Modern Homes: A Smarter Way to Add Ambient Lighting
+                                </h4>
+                                <span class="work-view-btn">Read Sample</span>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- END PORTFOLIO -->
+
+
+    <!-- EXPERIENCE -->
+
+    <section
+        id="reviews"
+        class="testimonial-section bg-grey bd-bottom padding"
+    >
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 d-none d-lg-block d-md-block">
+                    <div class="clients-thumb">
+                        <div class="ct-thumb thumb-1"></div>
+                        <div class="ct-thumb thumb-2"></div>
+                        <div class="ct-thumb thumb-3"></div>
+                        <div class="ct-thumb thumb-4"></div>
+                        <div class="ct-thumb thumb-5"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="section-heading">
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">
+                            Professional Experience
+                        </h2>
+                    </div>
+
+                    <div
+                        id="testimonial-carousel"
+                        class="testimonial-carousel owl-carousel wow fadeInUp"
+                        data-wow-delay="300ms"
+                    >
+
+                        <div class="testi-item">
+                            <p>Write SEO-optimized blogs and articles based on audience needs and search intent. Create website content, business-focused copy and research-based articles. Conduct topic and online research and organize complex information into clear, structured content. Produce academic and research-based writing with a formal and organized style. Create persuasive digital copy while maintaining natural readability and audience focus.</p>
+                            <div class="testi-thumb">
+                                <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=300&q=80" alt="Freelance SEO Content Writer & Academic Writer">
+                                <h3>Freelance SEO Content Writer & Academic Writer<span>3+ Years of Experience</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="testi-item">
+                            <p>Write SEO-optimized blog posts and articles based on topic, audience and search intent. Use relevant keywords naturally while maintaining readability, flow and content quality.</p>
+                            <div class="testi-thumb">
+                                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=300&q=80" alt="SEO Content Writing">
+                                <h3>SEO Content Writing<span>Freelance</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="testi-item">
+                            <p>Write academic and research-based content with a clear, organized and formal writing style. Create structured educational material, assignments and thesis-related writing.</p>
+                            <div class="testi-thumb">
+                                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=300&q=80" alt="Academic & Research Writing">
+                                <h3>Academic & Research Writing<span>Freelance</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="testi-item">
+                            <p>Create website content including informative pages, service content and business-focused copy. Organize information logically for clear, audience-centered digital content.</p>
+                            <div class="testi-thumb">
+                                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=300&q=80" alt="Website Content">
+                                <h3>Website Content<span>Freelance</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="testi-item">
+                            <p>Create persuasive copy for digital platforms while keeping the message natural and audience-focused. Maintain readability, flow and content quality across marketing communication.</p>
+                            <div class="testi-thumb">
+                                <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=300&q=80" alt="Copywriting">
+                                <h3>Copywriting<span>Freelance</span></h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- END EXPERIENCE -->
+
+
+    <!-- CONTACT -->
+
+    <section
+        id="contact"
+        class="contact-section padding"
+    >
+
+        <div class="container">
+
+            <div class="contact-wrapper d-flex align-items-center row">
+
+                <div class="col-lg-5 col-md-6 sm-padding">
+
+                    <div class="contact-info">
+
+                        <div class="section-heading mb-20">
+                            <h2 class="wow fadeInUp" data-wow-delay="100ms">
+                                Get In Touch
+                            </h2>
+                        </div>
+
+                        <p class="wow fadeInUp" data-wow-delay="300ms">
+                            Have an SEO content, academic writing, website content or copywriting project?
+                            Let's discuss how I can help create clear, engaging and research-based content.
+                        </p>
+
+                        <p class="wow fadeInUp" data-wow-delay="400ms">
+
+                            <strong>Email:</strong>
+
+                            <a href="mailto:I12992322@gmail.com">
+                                I12992322@gmail.com
+                            </a>
+
+                            <br>
+
+                            <strong>Phone:</strong>
+
+                            <a href="tel:+923714839454">
+                                03714839454
+                            </a>
+
+                            <br>
+
+                            <strong>Location:</strong>
+
+                            Multan, Pakistan
+
+                        </p>
+
+                        <p class="wow fadeInUp" data-wow-delay="500ms">
+
+                            <strong>Specialization:</strong>
+
+                            SEO Content Writing • Academic Writing • Copywriting
+
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-6 sm-padding">
+
+                    <div class="contact-form">
+
+                        <form
+                            action="contact.php"
+                            method="post"
+                            id="ajax_form"
+                            class="form-horizontal"
+                        >
+
+                            <div class="form-group colum-row row wow fadeInUp" data-wow-delay="500ms">
+
+                                <div class="col-sm-6">
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        class="form-control"
+                                        placeholder="Full Name"
+                                        required
+                                    >
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        class="form-control"
+                                        placeholder="Email"
+                                        required
+                                    >
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row wow fadeInUp" data-wow-delay="700ms">
+                                <div class="col-md-12">
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        cols="30"
+                                        rows="5"
+                                        class="form-control message"
+                                        placeholder="Message"
+                                        required
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group row wow fadeInUp" data-wow-delay="900ms">
+                                <div class="col-md-12">
+                                    <button id="submit" class="default-btn" type="submit">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="form-messages" class="alert" role="alert"></div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- END CONTACT -->
+
+
+    <!-- GET TO WORK -->
+
+    <section class="widget-section padding">
+
+        <div class="container">
+
+            <div class="widget-content text-center">
+
+                <h2
+                    class="wow fadeInUp"
+                    data-wow-delay="100ms"
+                >
+                    Let's get to work
+                    <span>!</span>
+                </h2>
+
+
+                <a
+                    class="mb-15 wow fadeInUp"
+                    data-wow-delay="200ms"
+                    href="mailto:I12992322@gmail.com"
+                >
+                    I12992322@gmail.com
+                </a>
+
+
+                <a
+                    href="tel:+923714839454"
+                    class="wow fadeInUp"
+                    data-wow-delay="300ms"
+                >
+                    03714839454
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END GET TO WORK -->
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer-section">
+
+        <div class="container">
+
+            <div class="footer-wrap row">
+
+
+                <div class="col-md-6">
+
+                 <ul class="footer-social">
+
+    <li>
+        <a href="mailto:I12992322@gmail.com">
+            Email
+        </a>
+    </li>
+
+    <li>
+        <a href="#portfolio">
+            Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a
+            href="https://www.linkedin.com/in/iqra-n-961441432"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            LinkedIn
+        </a>
+    </li>
+
+</ul>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="copyright">
+
+                        <p>
+                            &copy;
+                            <span id="year"></span>
+                            Iqra Nawaz. All Rights Reserved.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- END FOOTER -->
+
+
+    <!-- SCROLL TO TOP -->
+
+    <a
+        data-scroll
+        href="#header"
+        id="scroll-to-top"
+    >
+        <i class="ti-angle-up"></i>
+    </a>
+
+
+    <!-- jQuery -->
+
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- Modernizr -->
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <!-- Bootstrap -->
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!-- Slicknav -->
+
+    <script src="js/vendor/jquery.slicknav.min.js"></script>
+
+    <!-- OWL Carousel -->
+
+    <script src="js/vendor/owl.carousel.min.js"></script>
+
+    <!-- Counterup -->
+
+    <script src="js/vendor/jquery.counterup.min.js"></script>
+
+    <!-- Waypoints -->
+
+    <script src="js/vendor/jquery.waypoints.v2.0.3.min.js"></script>
+
+    <!-- Venobox -->
+
+    <script src="js/vendor/venobox.min.js"></script>
+
+    <!-- Images Loaded -->
+
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Isotope -->
+
+    <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+
+    <!-- Smooth Scroll -->
+
+    <script src="js/vendor/smooth-scroll.min.js"></script>
+
+    <!-- WOW -->
+
+    <script src="js/vendor/wow.min.js"></script>
+
+    <!-- Contact -->
+
+    <script src="js/contact.js"></script>
+
+    <!-- Main JS -->
+
+    <script src="js/main.js"></script>
+
+
+    <!-- CURRENT YEAR -->
+
+    <script>
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
+
+                var yearElement =
+                    document.getElementById("year");
+
+                if (yearElement) {
+
+                    yearElement.textContent =
+                        new Date().getFullYear();
+
+                }
+
+            }
+        );
+
+    </script>
+
+
+</body>
+
+</html>
